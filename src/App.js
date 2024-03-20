@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route } from 'react-router';
-import Heading from './components/Heading';
 import Coins from './components/Coins';
 import CoinDetail from './components/CoinDetail';
 
@@ -8,11 +7,10 @@ import CoinDetail from './components/CoinDetail';
 const App = () => {
   return (
     <div className='app'>
-      <Heading />
       <main>
         <Routes>
           <Route path="/" element={<Coins />} />
-          <Route path="/coin/:coinId" element={<CoinDetail />} />
+          <Route path="/coins/:coinId" element={<CoinDetail />} />
         </Routes>
 
       </main>

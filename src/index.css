@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+link{
+  color: white !important;
+}
+
 /* Coin Grid */
 .coinRow,
 .coinHeader {

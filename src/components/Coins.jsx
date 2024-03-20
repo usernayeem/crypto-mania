@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Heading from './Heading';
 import CoinRow from './CoinRow';
 import { Link } from 'react-router-dom';
 import Pagination from '@mui/material/Pagination';
@@ -45,6 +46,7 @@ export const Coins = () => {
 
   return (
     <>
+      <Heading />
       <div className="coinHeader">
         <p className="hidden">Rank</p>
         <p>Name</p>
@@ -55,7 +57,7 @@ export const Coins = () => {
       {
         // Map the coins in the current page to CoinRow components.
         items.map((coinInfo) => (
-          <Link to={`/coin/${coinInfo.id}`} key={coinInfo.id}>
+          <Link to={`/coins/${coinInfo.id}`} key={coinInfo.id}>
             <CoinRow coinRow={coinInfo} />
           </Link>
         ))
