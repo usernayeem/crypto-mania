@@ -1,4 +1,4 @@
-# Crypto Mania
+# Crypto Genius
 
 ## Authors
 
@@ -12,8 +12,8 @@ This GitHub repository contains a ReactJS crypto currency web application. That 
 
 To install this application, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/usernayeem/crypto-mania`
-2. Navigate to the project directory: `cd crypto-mania`
+1. Clone this repository: `git clone https://github.com/usernayeem/crypto-genius`
+2. Navigate to the project directory: `cd crypto-genius`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
