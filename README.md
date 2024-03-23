@@ -6,7 +6,11 @@
 
 ## About
 
-This GitHub repository contains a ReactJS crypto currency web application. That displays real-time data using the CoinGeko API. Feel free to explore the project and use it as inspiration for your own ReactJS development. Contributions and feedback are welcome! 
+This GitHub repository contains a ReactJS crypto currency web application. That displays real-time data using the CoinGeko API. Feel free to explore the project and use it as inspiration for your own ReactJS development. Contributions and feedback are welcome!
+
+## Live Preview
+
+https://crypto-genius.netlify.app/
 
 ## Installation
 
