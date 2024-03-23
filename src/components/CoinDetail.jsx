@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Box, Typography } from '@mui/material'
 import Card from './Card'
+import IconBreadcrumbs from './Breadcrumbs'
 
 const CoinDetail = () => {
   const params = useParams();
@@ -24,6 +25,7 @@ const CoinDetail = () => {
 
   return (
     <>
+      <IconBreadcrumbs crypto={coin.id} />
       <Typography sx={{ textTransform: 'uppercase', fontWeight: 'bold', fontFamily: 'Monospace', color: 'white', letterSpacing: 1.5, fontSize: 20 }} >{coin.id}</Typography>
 
       <Box sx={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: 3 }}>
