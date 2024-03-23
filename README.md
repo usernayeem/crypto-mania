@@ -1,4 +1,4 @@
-# Crypto Mania
+# Crypto Genius
 
 ## Authors
 
@@ -6,14 +6,18 @@
 
 ## About
 
-This GitHub repository contains a ReactJS crypto currency web application. That displays real-time data using the CoinGeko API. Feel free to explore the project and use it as inspiration for your own ReactJS development. Contributions and feedback are welcome! 
+This GitHub repository contains a ReactJS crypto currency web application. That displays real-time data using the CoinGeko API. Feel free to explore the project and use it as inspiration for your own ReactJS development. Contributions and feedback are welcome!
+
+## Live Preview
+
+https://crypto-genius.netlify.app/
 
 ## Installation
 
 To install this application, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/usernayeem/crypto-mania`
-2. Navigate to the project directory: `cd crypto-mania`
+1. Clone this repository: `git clone https://github.com/usernayeem/crypto-genius`
+2. Navigate to the project directory: `cd crypto-genius`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
